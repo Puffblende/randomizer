@@ -14,7 +14,7 @@ ul {
 }
 li {
     font-size: 20px;
-    font-family: Arial;
+    font-family: Helvetica,Arial;
     float: left;
     border-right: 1px solid #bbb;
 }
@@ -38,33 +38,9 @@ li a:hover {
     background-color: #BBBBBB;
 }
 
-
-
-
-
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #444;
-}
-
-li {
-    float: left;
-    color: white;
-    font-size: 20;
+#textbody {
     font-family: Arial;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 5px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
+    font-size: 14px;
+    text-align:justify;
+    white-space: normal;
 }
