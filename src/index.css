@@ -8,7 +8,7 @@
 ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
     background-color: #333333;
 }
@@ -39,8 +39,11 @@ li a:hover {
 }
 
 #textbody {
-    font-family: Arial;
-    font-size: 14px;
+    font-family: Helvetica,Arial;
+    font-size: 18px;
     text-align:justify;
     white-space: normal;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
 }
