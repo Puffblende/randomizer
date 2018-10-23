@@ -1,0 +1,44 @@
+#head {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+body {
+    background-image:url("./Bilder/Ding.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    font-size: 20px;
+    font-family: Helvetica,Arial;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #333333;
+    height: 30px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li:last-child {
+    border-left: 1px solid #bbb;
+}
+li a:hover {
+    background-color: #BBBBBB;
+}
