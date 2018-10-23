@@ -4,7 +4,12 @@
     padding-bottom: 30px;
     font-style: italic;
 }
-
+body {
+    background-image:url("./Bilder/Ding.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 ul {
     list-style-type: none;
     margin: auto;
