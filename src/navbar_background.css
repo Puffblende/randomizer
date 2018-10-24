@@ -1,18 +1,24 @@
 #head {
     padding-left: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
     font-style: italic;
 }
+
+#menu{
+    padding: 0 !important;
+}
+
 body {
     background-image:url("./Bilder/Ding.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: auto;
 }
 ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0;
     padding: 0px;
     overflow: hidden;
     background-color: #333333;
@@ -22,6 +28,7 @@ li {
     font-family: Helvetica,Arial;
     float: left;
     border-right: 1px solid #bbb;
+    margin-left: 0;
 }
 li a{
     display: block;
