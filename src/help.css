@@ -1,0 +1,9 @@
+#textbody {
+    font-family: Helvetica,Arial;
+    font-size: 18px;
+    text-align:justify;
+    white-space: normal;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
