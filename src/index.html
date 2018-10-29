@@ -13,7 +13,11 @@
 </head>
 <body>
     <div id="head">
-        <header><img src="./Bilder/logo.png" alt="Randomizer" width="800px"></header>
+        <header>
+          <a href="./index.html">
+            <img src="./Bilder/logo.png" alt="Randomizer" width="800px">
+          </a>
+        </header>
     </div>
 
 <Menu bar style="padding-left: 0px">
@@ -61,13 +65,18 @@
 
   </div>
 </div>
-  <div class="row">
-    <div class="container">
+<div class="row">
+    <div class="container" >
       <ul id="list" class="list col-lg-6 col-8 mx-auto"></ul>
-        <li></li>
-        
+        <li id="li"></li>
     </div>
+</div>
+<div class="container">
+  <div class="output-group" id="webapp">
+    <button class="btn-outline-primary" onclick="generate()" type="button" id="button2">Generate</button>
   </div>
-  <script src="./script.js"></script>
+</div>
+
+<script src="./script.js"></script>
 </body>
 </html>
