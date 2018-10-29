@@ -50,3 +50,20 @@
 ::placeholder {
     color: white;
 }
+
+#list{
+    margin-top: 30px;
+    background-color: transparent;
+}
+#list li{
+    font-family: Helvetica,Arial;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-right: none;
+    float: none;
+    text-align: center;
+}
+#list br{
+
+}

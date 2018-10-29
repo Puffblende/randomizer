@@ -1,8 +1,14 @@
-let list = document.getElementById("list");
+var list = document.getElementById("list");
+
 function add() {
 
-let node = document.createElement("LI");
-let textnode = document.createTextNode(input.value);
-node.appendChild(textnode);
-document.getElementById("list").appendChild(node);
+  var linebreak = document.createElement("br");
+  var node = document.createElement("LI");
+  var textnode = document.createTextNode(input.value);
+  node.appendChild(textnode);
+
+  document.getElementById("list").appendChild(node);
+  document.getElementById("list").appendChild(linebreak);
+
+
 }
