@@ -42,4 +42,14 @@ $(function(){
   getRandomInt = function (max){
     return Math.floor(Math.random() * Math.floor(max));
   }
+
+  //Create entry and yield it to the list
+  var saveEntry = function(){
+    var value = $inputField.val();
+  if(!value.length) return;
+  $list.append($('<li/>').text(value));
+  $inputField.val('').focus();
+  $actions.show();
+  window.scrollTo(0, 100000);
+  }
 })
