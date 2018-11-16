@@ -52,4 +52,20 @@ $(function(){
   $actions.show();
   window.scrollTo(0, 100000);
   }
+
+  //Grab random list item and display its text
+  var randomize = function(){
+    var len = $list.children().length;
+    var rand = getRandomInt(len);
+    var li = $list.children().get(rand);
+    %$randomItem.text($(li).text());
+  }
+
+  //Clear the list
+  var clearList = function(){
+    $list.empty();
+    $inputField.val('').focus();
+    $randomItem.text('');
+    $actions.hide();
+  }
 })
