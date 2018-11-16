@@ -1,0 +1,25 @@
+Server oder browserseitig?
+- Unsere Website ist browserseitig. Das erkennt man daran, dass wir eine eigene
+Javascript Datei nutzen, in der sämtlicher Code zur Durchführung der Funktionien
+der WebApp hinterlegt ist. Wir senden keine get oder post anfragen an einen Server
+sondern führen alles brwoserseitig aus.
+
+Woran sieht man das?
+- Wir haben keinen serverseitigen Code benutzt, zum Beispiel PHP oder relevanten Javacode.
+- Es wurden auch keine "Bring your own webserver" HTTPServer Klasse oder sonstige
+Bibliotheken implementiert.
+- Wir senden zu keinem Zeitpunkt bewusste Anfragen an einen ApplicationServer.
+
+Was müsste geändert werden um unsere Website "serverseitig" zu machen?
+- Wir müssten uns für eine Variante entscheiden ("bring your own webserver"/komplett serverseitig)
+- Entsprechende Implementationen müssten getätigt werden. Zum Beispiel müsste Glassfish
+als Applicationserver genutzt werden oder wir müsste entsprechende Bibliotheken
+implementieren, die "unseren eigenen webserver" mitbringen,
+z.B. Undertow, Spark oder Jetty.
+- Unser bestehender Code müsste für die Kommunikation mit einem Server umgeschrieben,
+bzw. ergänzt werden.
+
+Erkläre 10 zeilen Code?
+
+- such dir was aus. Du verstehst ja alles was wir geschrieben haben. Müssen nochmal
+fragen, ob es sich dabei speziell um Javascript handelt oder um JavaScript/HTML/CSS.
