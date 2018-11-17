@@ -21,7 +21,7 @@ ul {
     margin: 0;
     padding: 0px;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #535353;
 }
 li {
     font-size: 20px;
@@ -35,7 +35,7 @@ li a{
     color: white;
     text-align: center;
     text-decoration: none;
-    background-color: #333333;
+    background-color: #535353;
     height: 30px;
     width: auto;
     padding-top: 10px;

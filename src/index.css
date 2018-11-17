@@ -14,10 +14,9 @@
     white-space: normal;
     padding-right: 200px;
     padding-left: 200px;
-    padding-top: 50px;
 }
-#button1 {
-    background-color: #333333;
+.form-control {
+    background-color: #BBBBBB;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -26,32 +25,16 @@
     font-size: 24px;
     font-family: Helvetica,Arial;
     width: 40%;
-    margin-left: 30%;
-    margin-right: 30%
-    position: relative;
-    align-self: center;
-}
-#button1:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #BBBBBB;
-}
-#input {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    background-color: #BBBBBB;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 24px;
-    font-family: Helvetica,Arial;
+    margin-left: 29%;
+    margin-right: 31%;
+    margin-top: 20px;
 }
 ::placeholder {
     color: white;
 }
-
 #list{
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: transparent;
 }
 #list li{
@@ -63,8 +46,8 @@
     float: none;
     text-align: center;
 }
-#button2 {
-    background-color: #333333;
+.btn-outline-primary {
+    background-color: #535353;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -74,17 +57,22 @@
     font-family: Helvetica,Arial;
     width: 40%;
     margin-left: 30%;
-    margin-right: 30%
-    position: relative;
-    align-self: center;
-    display: none;
-
+    margin-right: 30%;
+    margin-top: 15px;
 }
-#button2:hover {
+.btn-outline-primary:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #BBBBBB;
 }
-
+#random-item {
+    font-family: Helvetica,Arial;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-right: none;
+    float: none;
+    text-align: center;
+}
 .actions {
   text-align: center;
 }
