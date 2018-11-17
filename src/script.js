@@ -68,4 +68,16 @@ $(function(){
     $randomItem.text('');
     $actions.hide();
   }
-})
+
+  //Assign actions to buttons
+  $('#btn-save').on('click', saveEntry);
+  $('#btn-clear-list').on('click', clearList);
+  $('#btn-generate').on('click', randomize);
+
+  //Assign key events
+  $inputField.on('keyup', function (event){
+    if(event.which == 13){
+      saveEntry();
+    }
+  });
+});
